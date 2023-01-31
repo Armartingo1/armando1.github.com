@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+ color: rgb(0, 0, 36);
+}
+body{
+    border: 4px solid black;
+    background-color: lightgray;
+}
+
+header {
+
+    background-color: rgba(97, 131, 243, 0.911); 
+    text-align: center;
+    font-size: 1cm;
+    font-style: oblique;
+    
+}
+
+#Mi_foto{
+    width: 100%;
+    height: auto;
+    margin: 5px; 
+    border: 5px solid rgba(135, 139, 150, 0.911)
+}  
+  
+[class*="col-"] {
+    float: left;
+    padding: 0px;
+    border: 0px solid red;
+  }
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+.col-3 {
+    width: 25%;
+}
+
+.col-9 {
+    width: 25%;
+    text-align: left;
+}
+
+.row{
+    display: flex;
+    font-size: auto;
+}
+
+.row p{
+    margin-left: 1cm;
+    font-size: 20px;
+}
+section{
+    margin: 5px; 
+    border: 5px solid rgba(135, 139, 150, 0.911)
+}
+h2{
+    margin: 20px;
+ }
+.SobreMi h2{
+   text-align: center;
+   margin: 20px;
+   font-size: 50px;
+}
+.SobreMi p{
+    
+    margin-left: 5px;
+    padding: 10px;
+    text-align: justify;
+    font-size: 20px;
+	}
+
+.Formato_general{
+    box-sizing: border-box;
+    margin: 5px;
+    padding: 2px;
+    text-align: justify;
+	display: flex;
+    font-size: 30px;
+	}
+
+.Formato_secundario {
+    margin-left: 15px;
+    font-size: medium;
+}
+#Contactos{
+    font-size: 30px;
+    margin: 5px; 
+    border: 5px solid rgba(135, 139, 150, 0.911)
+}
+#Contactos span, a{
+    margin: 5px;
+}
+svg{
+    height: 30px;
+    width: 30px;
+}

@@ -1,0 +1,47 @@
+.Encabezado {
+	max-width: 860px;
+	width: 80%;
+	margin: 0 auto;
+}header {
+    background: #33a4c9;
+    border-bottom: 1px solid #848484;
+    padding: 19px 0;
+    overflow: hidden;
+  }
+  
+  header figure {
+    float: left;
+  }
+  
+  header figure img {
+    
+    border: solid #fff;
+    height: 175px;
+    width: 140px;
+    position: relative;
+  }
+  
+  header hgroup {
+    float: right;
+    text-align: center;
+  }
+  
+  header hgroup h1 {
+    color: #fff;
+    font: 400 40px oswald, sans-serif;
+    text-shadow: 1px 1px 0 rgba(0,0,0,.3);
+  }
+  
+  header hgroup h2 {
+    color: #fff;
+    font-style: italic;
+    font: 400 20px oswald,sans-serif;
+    text-shadow: 1px 1px 0 rgba(0,0,0,.3);
+  }
+  #cv {
+    width: 45px;
+    height: 55px;
+    -webkit-transform: rotate(15deg); 
+    transform: rotate(15deg);
+    box-shadow: 1px 1px 1px #888888;
+  }
